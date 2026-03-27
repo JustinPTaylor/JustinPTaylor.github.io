@@ -1,5 +1,15 @@
 h1 {
     color: darkred;
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+p {
+    text-align: center;
+}
+ul {
+    text-align: center;
 }
 body {
     background-color: lightgrey;
@@ -9,7 +19,4 @@ iframe {
     padding: 0px;
     background-color: white;
     border-color: black;
-}
-:default {
-    text-align: center;
 }
