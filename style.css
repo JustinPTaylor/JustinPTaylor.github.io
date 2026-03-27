@@ -5,9 +5,10 @@ body {
     background-color: lightgrey;
 }
 iframe {
-    margin: auto;
-    padding: 10%;
+    /* margin: auto; */
+    padding: 0px;
     background-color: white;
+    border-color: black;
 }
 :default {
     text-align: center;
