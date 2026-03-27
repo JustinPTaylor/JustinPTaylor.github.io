@@ -1,5 +1,5 @@
 h1 {
-    color: darkblue;
+    color: darkred;
     text-align: center;
 }
 h2 {
@@ -11,8 +11,8 @@ p {
 img {
     margin: 10px;
 }
-body {
-    background-color: lightgrey;
+body .bluebackground {
+    background-color: lightblue;
 }
 iframe {
     height: fit-content;
