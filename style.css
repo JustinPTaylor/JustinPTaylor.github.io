@@ -17,14 +17,17 @@ body.bluebackground {
 iframe {
     display: block;
     height: auto;
-    width: 100%;
+    width: 80%;
     background-color: white;
     border-color: black;
+    align-items: center;
+    align-self: center;
 }
 .navlink {
     display: inline-block;
     border: 2px, solid, black;
-    background-color: lightcoral;
-    padding: 20px;
+    background-color: lightyellow;
+    padding: 20px, 10px;
     margin: 5px;
+    vertical-align: center;
 }
