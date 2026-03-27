@@ -16,13 +16,14 @@ body {
 }
 iframe {
     height: fit-content;
-    width: fit-content;
+    width: auto;
     background-color: white;
     border-color: black;
 }
-.headerlink {
+.navlink {
     display: inline-block;
     border-color: black;
+    background-color: lightcoral;
     padding: 20px;
     margin: 20px;
 }
