@@ -15,8 +15,9 @@ body.bluebackground {
     background-color: lightblue;
 }
 iframe {
+    display: block;
     height: auto;
-    width: fit-content;
+    width: 100%;
     background-color: white;
     border-color: black;
 }
