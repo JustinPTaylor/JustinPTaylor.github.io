@@ -21,8 +21,8 @@ body {
     background-color: lightgrey;
 }
 iframe {
-    /* margin: auto; */
-    padding: 100px;
+    height: auto;
+    width: auto;
     background-color: white;
     border-color: black;
 }
