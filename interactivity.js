@@ -4,8 +4,9 @@ function resizeIFrameToFitContent( iFrame ) {
 }
 
 window.addEventListener('DOMContentLoaded', function(e) {
-    var iframes = document.querySelectorAll("iframe");
+    var iframes = this.document.querySelectorAll("iframe");
     for( var i = 0; i < iframes.length; i++) {
         resizeIFrameToFitContent( iframes[i] );
     }
+    this.document.getElementById("Test").innerHTML = "TESTING123"
 } );
