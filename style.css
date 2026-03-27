@@ -22,8 +22,8 @@ iframe {
 }
 .navlink {
     display: inline-block;
-    border-color: black;
+    border: 2px, solid, black;
     background-color: lightcoral;
     padding: 20px;
-    margin: 20px;
+    margin: 5px;
 }
