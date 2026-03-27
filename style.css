@@ -11,12 +11,12 @@ p {
 img {
     margin: 10px;
 }
-body .bluebackground {
+body.bluebackground {
     background-color: lightblue;
 }
 iframe {
-    height: fit-content;
-    width: auto;
+    height: auto;
+    width: fit-content;
     background-color: white;
     border-color: black;
 }
