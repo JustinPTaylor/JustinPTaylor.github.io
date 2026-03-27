@@ -15,14 +15,15 @@ body {
     background-color: lightgrey;
 }
 iframe {
-    height: 50px;
+    height: fit-content;
     width: fit-content;
     background-color: white;
     border-color: black;
 }
 .headerlink {
-    display: block;
+    display: inline-block;
     border-color: black;
+    color: black;
     padding: 20px;
     margin: 20px;
 }
