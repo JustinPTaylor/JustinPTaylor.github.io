@@ -1,18 +1,13 @@
 let nextButton = this.document.getElementById("next");
-nextButton.innerHTML = "The button was found";
 let backButton = this.document.getElementById("back");
 
-document.getElementById("Project1").innerHTML = "Show me something";
-
-
 nextButton.addEventListener("click", function() {
-    nextButton.innerHTML = "The Event Worked";
     let first = document.getElementById("Project1");
     let second = document.getElementById("Project2");
     first.classList.add("hidden");
     second.classList.remove("hidden");
     nextButton.classList.add("hidden");
-    backButton.classList.remove("hidden");
+    /*backButton.classList.remove("hidden");*/
 });
 backButton.addEventListener("click", function() {
     let first = document.getElementById("Project1");
