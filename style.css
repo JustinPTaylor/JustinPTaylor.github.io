@@ -1,11 +1,11 @@
 h1 {
     color: darkred;
-    text-align: center;
+    /*text-align: center;*/
 }
 h2 {
     text-align: center;
 }
-p {
+p.navcenter {
     text-align: center;
 }
 img {
