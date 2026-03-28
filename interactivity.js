@@ -2,6 +2,9 @@ let nextButton = this.document.getElementById("next");
 nextButton.innerHTML = "The button was found";
 let backButton = this.document.getElementById("back");
 
+document.getElementById("Project1").innerHTML = "Show me something";
+
+
 nextButton.addEventListener("click", function() {
     nextButton.innerHTML = "The Event Worked";
     let first = document.getElementById("Project1");
