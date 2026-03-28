@@ -28,6 +28,34 @@ randomImageBtn.addEventListener("click", function() {
         setTimeout(function() {
             oldRandomIndex = randomizeImage(toRandomize, oldRandomIndex);
             waitTime = 100;
+        }, waitTime)
+        setTimeout(function() {
+            oldRandomIndex = randomizeImage(toRandomize, oldRandomIndex);
+            waitTime = 100;
+        }, waitTime)
+        setTimeout(function() {
+            oldRandomIndex = randomizeImage(toRandomize, oldRandomIndex);
+            waitTime = 100;
+        }, waitTime)
+        setTimeout(function() {
+            oldRandomIndex = randomizeImage(toRandomize, oldRandomIndex);
+            waitTime = 100;
+        }, waitTime)
+        setTimeout(function() {
+            oldRandomIndex = randomizeImage(toRandomize, oldRandomIndex);
+            waitTime = 100;
+        }, waitTime)
+        setTimeout(function() {
+            oldRandomIndex = randomizeImage(toRandomize, oldRandomIndex);
+            waitTime = 100;
+        }, waitTime)
+        setTimeout(function() {
+            oldRandomIndex = randomizeImage(toRandomize, oldRandomIndex);
+            waitTime = 100;
+        }, waitTime)
+        setTimeout(function() {
+            oldRandomIndex = randomizeImage(toRandomize, oldRandomIndex);
+            waitTime = 100;
             randomImageBtn.classList.remove("hidden");
         }, waitTime)
         }, waitTime)
