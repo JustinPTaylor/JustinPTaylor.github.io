@@ -1,3 +1,6 @@
+let nextButton = this.document.getElementById("next");
+let backButton = this.document.getElementById("back");
+
 nextButton.addEventListener("click", function() {
     let first = document.getElementById("Project1");
     let second = document.getElementById("Project2");
@@ -14,6 +17,3 @@ backButton.addEventListener("click", function() {
     backButton.classList.add("hidden");
     nextButton.classList.remove("hidden");
 });
-
-let nextButton = this.document.getElementById("next");
-let backButton = this.document.getElementById("back");
