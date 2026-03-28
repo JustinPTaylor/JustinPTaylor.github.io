@@ -1,19 +1,25 @@
-<html>
+<html lang="en-US">
 	<head>
 		<title>Main</title>
         <link rel="stylesheet" href="style.css">
 	</head>
     <body class="bluebackground">
+        <header>
         <!---https://www.reddit.com/r/HTML/comments/145clqy/how_to_apply_the_same_header_to_multiple_html/-->
-        <iframe src="header.html"></iframe>
+        <iframe src="header.html" title="Page Navigation"></iframe>
+        </header>
 
+        <main>
         <h1>My name is Justin Peter Taylor</h1>
         <button id="random-button">Generate Random Image of Me!</button>
         <div>
             <img alt="Image of Justin, happy and smiling" src="images/self_photo.jpg" height=500px class="hidden" id="main-image">
         </div>
+        </main>
 
-        <iframe src="footer.html"></iframe>
+        <footer>
+        <iframe src="footer.html" title="Links to professional platforms"></iframe>
+        </footer>
 
         <script src="indexButtons.js"></script>
     </body>

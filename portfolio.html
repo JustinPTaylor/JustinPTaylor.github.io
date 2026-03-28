@@ -1,11 +1,15 @@
-<html>
+<html lang="en-US">
     <head>
         <title>Portfolio</title>
         <link rel="stylesheet" href="style.css">
     </head>
     <body class="bluebackground">
+        <header>
         <!---https://www.reddit.com/r/HTML/comments/145clqy/how_to_apply_the_same_header_to_multiple_html/-->
-        <iframe src="header.html"></iframe>
+        <iframe src="header.html" title="Page Navigation"></iframe>
+        </header>
+
+        <main>
         <h1>Previous Projects</h1>
         <div id="Project1">
             <h2>BlockQuest</h2>
@@ -23,8 +27,11 @@
         </div>
         <button id="next">Next</button>
         <button id="back" class="hidden">Back</button>
+        </main>
 
-        <iframe src="footer.html"></iframe>
+        <footer>
+        <iframe src="footer.html" title="Links to professional platforms"></iframe>
+        </footer>
         
         <script src="portfolioButtons.js"></script>
     </body>
