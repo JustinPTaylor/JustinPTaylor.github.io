@@ -6,10 +6,11 @@ randomImageBtn.addEventListener("click", function() {
 
     toRandomize.classList.remove("hidden");
     
-    while (waitTime >= 0) {
-        oldRandomIndex = setTimeout(randomizeImage(toRandomize, oldRandomIndex), waitTime);
+    /*while (waitTime >= 0) {*/
+        /*Information obtained from https://www.w3schools.com/JS/js_timing.asp */
+        setTimeout(randomizeImage(toRandomize, oldRandomIndex), waitTime);
         waitTime -= 100;
-    }
+    /*}*/
 });
 
 function randomizeImage(toRandomize, oldRandomIndex) {
@@ -17,8 +18,8 @@ function randomizeImage(toRandomize, oldRandomIndex) {
     while (randomNum == oldRandomIndex)
         randomNum = Math.round(Math.random()*9);
 
-    if (randomNum == 0)
-        randomNum = 9;
+    /*if (randomNum == 0)
+        randomNum = 9;*/
 
     if (randomNum = 1)
         toRandomize.src = "images/self_photo.jpg";

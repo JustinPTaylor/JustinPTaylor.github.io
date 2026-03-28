@@ -27,7 +27,7 @@ body.bluebackground {
 }
 iframe {
     display: block;
-    height: 60px;
+    height: 80px;
     width: 50%;
     background-color: white;
     border-color: black;
@@ -67,4 +67,8 @@ h1:hover {
 }
 h2:hover {
     font-style: italic;
+}
+button:hover {
+    font-style: italic;
+    background-color: lightcoral;
 }
