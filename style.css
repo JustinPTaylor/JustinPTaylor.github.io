@@ -1,5 +1,5 @@
 h1 {
-    color: darkred;
+    color: red;
     text-align: center;
 }
 h2 {
@@ -16,8 +16,8 @@ body.bluebackground {
 }
 iframe {
     display: block;
-    height: 65px;
-    width: 30%;
+    height: 60px;
+    width: 50%;
     background-color: white;
     border-color: black;
     text-align: center;
