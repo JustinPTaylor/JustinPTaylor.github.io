@@ -12,22 +12,23 @@ randomImageBtn.addEventListener("click", function() {
         toRandomize.classList.remove("hidden");
         setTimeout(function() {
             oldRandomIndex = randomizeImage(toRandomize, oldRandomIndex);
-            waitTime -= 100;
+            waitTime = 500;
         setTimeout(function() {
             oldRandomIndex = randomizeImage(toRandomize, oldRandomIndex);
-            waitTime -= 100;
+            waitTime = 400;
         setTimeout(function() {
             oldRandomIndex = randomizeImage(toRandomize, oldRandomIndex);
-            waitTime -= 100;
+            waitTime = 100;
         setTimeout(function() {
             oldRandomIndex = randomizeImage(toRandomize, oldRandomIndex);
-            waitTime -= 100;
+            waitTime = 100;
         setTimeout(function() {
             oldRandomIndex = randomizeImage(toRandomize, oldRandomIndex);
-            waitTime -= 100;
+            waitTime = 100;
         setTimeout(function() {
             oldRandomIndex = randomizeImage(toRandomize, oldRandomIndex);
-            waitTime -= 100;
+            waitTime = 100;
+            randomImageBtn.classList.remove("hidden");
         }, waitTime)
         }, waitTime)
         }, waitTime)
@@ -35,8 +36,6 @@ randomImageBtn.addEventListener("click", function() {
         }, waitTime)
         }, waitTime)
     }, 0)
-    
-    randomImageBtn.classList.remove("hidden");
 });
 
 function randomizeImage(toRandomize, oldRandomIndex) {
