@@ -11,6 +11,11 @@ p {
 img {
     display: block;
     margin: auto;
+    margin-bottom: 10px;
+}
+.listcenterer {
+    display: block;
+    margin: auto;
 }
 body.bluebackground {
     background-color: lightblue;
@@ -23,7 +28,6 @@ iframe {
     border-color: black;
     text-align: center;
     margin: auto;
-    margin-bottom: 10px;
 }
 .navlink {
     display: inline-block;
