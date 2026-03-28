@@ -22,7 +22,7 @@ iframe {
     border-color: black;
     text-align: center;
     margin: auto;
-    scrollbar-width: none;
+    overflow: hidden;
 }
 .navlink {
     display: inline-block;
