@@ -1,7 +1,7 @@
 h1 {
     color: darkred;
     text-align: center;
-    font-size: 2em;
+    font-size: 3em;
 }
 h2 {
     color: darkgoldenrod;
@@ -10,7 +10,7 @@ h2 {
 }
 p {
     text-align: center;
-    font-size: 2em;
+    font-size: 1.5em;
 }
 img {
     display: block;
