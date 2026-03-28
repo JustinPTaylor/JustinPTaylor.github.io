@@ -16,12 +16,13 @@ body.bluebackground {
 }
 iframe {
     display: block;
-    height: 65px;
+    height: 60px;
     width: 50%;
     background-color: white;
     border-color: black;
     text-align: center;
     margin: auto;
+    scrollbar-width: none;
 }
 .navlink {
     display: inline-block;
