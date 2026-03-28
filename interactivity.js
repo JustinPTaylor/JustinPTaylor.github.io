@@ -1,13 +1,10 @@
-let nextButton = this.document.getElementById("next");
-let backButton = this.document.getElementById("back");
-
 nextButton.addEventListener("click", function() {
     let first = document.getElementById("Project1");
     let second = document.getElementById("Project2");
     first.classList.add("hidden");
     second.classList.remove("hidden");
     nextButton.classList.add("hidden");
-    /*backButton.classList.remove("hidden");*/
+    backButton.classList.remove("hidden");
 });
 backButton.addEventListener("click", function() {
     let first = document.getElementById("Project1");
@@ -17,3 +14,6 @@ backButton.addEventListener("click", function() {
     backButton.classList.add("hidden");
     nextButton.classList.remove("hidden");
 });
+
+let nextButton = this.document.getElementById("next");
+let backButton = this.document.getElementById("back");
