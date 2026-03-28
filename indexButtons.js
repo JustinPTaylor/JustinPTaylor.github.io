@@ -18,36 +18,36 @@ randomImageBtn.addEventListener("click", function() {
             waitTime = 400;
         setTimeout(function() {
             oldRandomIndex = randomizeImage(toRandomize, oldRandomIndex);
-            waitTime = 100;
+            waitTime = 200;
         setTimeout(function() {
             oldRandomIndex = randomizeImage(toRandomize, oldRandomIndex);
-            waitTime = 100;
+            waitTime = 200;
         setTimeout(function() {
             oldRandomIndex = randomizeImage(toRandomize, oldRandomIndex);
-            waitTime = 100;
+            waitTime = 200;
         setTimeout(function() {
             oldRandomIndex = randomizeImage(toRandomize, oldRandomIndex);
-            waitTime = 100;
+            waitTime = 150;
         }, waitTime)
         setTimeout(function() {
             oldRandomIndex = randomizeImage(toRandomize, oldRandomIndex);
-            waitTime = 100;
+            waitTime = 150;
         }, waitTime)
         setTimeout(function() {
             oldRandomIndex = randomizeImage(toRandomize, oldRandomIndex);
-            waitTime = 100;
+            waitTime = 150;
         }, waitTime)
         setTimeout(function() {
             oldRandomIndex = randomizeImage(toRandomize, oldRandomIndex);
-            waitTime = 100;
+            waitTime = 150;
         }, waitTime)
         setTimeout(function() {
             oldRandomIndex = randomizeImage(toRandomize, oldRandomIndex);
-            waitTime = 100;
+            waitTime = 150;
         }, waitTime)
         setTimeout(function() {
             oldRandomIndex = randomizeImage(toRandomize, oldRandomIndex);
-            waitTime = 100;
+            waitTime = 150;
         }, waitTime)
         setTimeout(function() {
             oldRandomIndex = randomizeImage(toRandomize, oldRandomIndex);
