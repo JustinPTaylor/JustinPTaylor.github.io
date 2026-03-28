@@ -9,7 +9,7 @@ p.navcenter {
     text-align: center;
 }
 img {
-    margin: 10px;
+    margin: auto;
 }
 body.bluebackground {
     background-color: lightblue;
@@ -22,7 +22,6 @@ iframe {
     border-color: black;
     text-align: center;
     margin: auto;
-    overflow: hidden;
 }
 .navlink {
     display: inline-block;
