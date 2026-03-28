@@ -6,13 +6,21 @@ randomImageBtn.addEventListener("click", function() {
 
     toRandomize.classList.remove("hidden");
     
-    while (waitTime > 0) {
+    recursive(waitTime, oldRandomIndex)
+
+    /*while (waitTime > 0) {
         setTimeout(function(){
             oldRandomIndex = randomizeImage(toRandomize, oldRandomIndex);
             waitTime -= 100;
         }, waitTime)
-    }
+    }*/
 });
+
+function recursive(waitTime, oldRandomIndex) {
+    oldRandomIndex = randomizeImage(toRandomize, oldRandomIndex);
+    if (waitTime > 0)
+        setTimeout(recursive(waitTime - 100, oldRandomIndex), waitTime)
+}
 
 function randomizeImage(toRandomize, oldRandomIndex) {
     let randomNum = Math.round(Math.random()*9);
