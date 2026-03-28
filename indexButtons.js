@@ -3,13 +3,16 @@ randomImageBtn.addEventListener("click", function() {
     let toRandomize = document.getElementById("main-image");
     let oldRandomIndex = -1;
     let waitTime = 1000;
-    /*toRandomize.classList.add("hidden");*/
+    toRandomize.classList.add("hidden");
 
-    setTimeout(function recurse(){
+    setTimeout(function() {
         oldRandomIndex = randomizeImage(toRandomize, oldRandomIndex);
         toRandomize.classList.remove("hidden");
         waitTime -= 100;
-        recurse()
+        setTimeout(function() {
+            oldRandomIndex = randomizeImage(toRandomize, oldRandomIndex);
+            waitTime -= 100;
+        }, waitTime)
     }, waitTime)
 });
 
