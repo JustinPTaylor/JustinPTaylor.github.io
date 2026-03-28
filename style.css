@@ -54,6 +54,6 @@ button{
     display: none;
 }
 
-:hover {
+p:hover {
     font-size: 2em;
 }
