@@ -1,7 +1,9 @@
 let nextButton = this.document.getElementById("next")
+nextButton.innerHTML("The button was found")
 let backButton = this.document.getElementById("back")
 
 nextButton.addEventListener("click", function() {
+    nextButton.innerHTML("The Event Worked")
     let first = document.getElementById("Project1");
     let second = document.getElementById("Project2");
     first.classList.add("hidden");

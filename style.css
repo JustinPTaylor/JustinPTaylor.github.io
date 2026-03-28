@@ -42,6 +42,7 @@ iframe {
     margin-right: 30px;
 }
 button{
+    display: block;
     margin: auto;
 }
 .hidden {
