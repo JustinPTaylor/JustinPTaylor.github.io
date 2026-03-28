@@ -13,7 +13,7 @@ backButton.addEventListener("click", function() {
     let first = document.getElementById("Project1");
     let second = document.getElementById("Project2");
     second.classList.add("hidden");
-    first.classList.hidden("hidden");
+    first.classList.remove("hidden");
     backButton.classList.add("hidden");
     nextButton.classList.remove("hidden");
 });
