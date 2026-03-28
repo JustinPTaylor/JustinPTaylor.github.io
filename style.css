@@ -1,15 +1,11 @@
 h1 {
     color: darkred;
-    text-align: center;
-}
-h2 {
-    text-align: center;
 }
 p.navcenter {
     text-align: center;
 }
 img {
-    margin: auto;
+    margin: 10px;
 }
 body.bluebackground {
     background-color: lightblue;
