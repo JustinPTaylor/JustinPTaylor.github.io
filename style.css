@@ -55,5 +55,11 @@ button{
 }
 
 p:hover {
-    font-size: 2em;
+    font-style: italic;
+}
+h1:hover {
+    font-style: italic;
+}
+h2:hover {
+    font-style: italic;
 }
