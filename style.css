@@ -23,6 +23,7 @@ iframe {
     border-color: black;
     text-align: center;
     margin: auto;
+    margin-bottom: 10px;
 }
 .navlink {
     display: inline-block;
