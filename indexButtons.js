@@ -6,11 +6,12 @@ randomImageBtn.addEventListener("click", function() {
 
     toRandomize.classList.remove("hidden");
     
-    /*while (waitTime >= 0) {*/
-        /*Information obtained from https://www.w3schools.com/JS/js_timing.asp */
-        setTimeout(randomizeImage(toRandomize, oldRandomIndex), waitTime);
-        waitTime -= 100;
-    /*}*/
+    while (waitTime > 0) {
+        setTimeout(function(){
+            oldRandomIndex = randomizeImage(toRandomize, oldRandomIndex);
+            waitTime -= 100;
+        }, waitTime)
+    }
 });
 
 function randomizeImage(toRandomize, oldRandomIndex) {
@@ -18,34 +19,34 @@ function randomizeImage(toRandomize, oldRandomIndex) {
     while (randomNum == oldRandomIndex)
         randomNum = Math.round(Math.random()*9);
 
-    /*if (randomNum == 0)
-        randomNum = 9;*/
+    if (randomNum == 0)
+        randomNum = 9;
 
-    if (randomNum = 1)
+    if (randomNum == 1)
         toRandomize.src = "images/self_photo.jpg";
 
-    if (randomNum = 2)
+    if (randomNum == 2)
         toRandomize.src = "images/self2.jpg";
 
-    if (randomNum = 3)
+    if (randomNum == 3)
         toRandomize.src = "images/self3.jpg";
 
-    if (randomNum = 4)
+    if (randomNum == 4)
         toRandomize.src = "images/self4.jpg";
 
-    if (randomNum = 5)
+    if (randomNum == 5)
         toRandomize.src = "images/self5.jpg";
 
-    if (randomNum = 6)
+    if (randomNum == 6)
         toRandomize.src = "images/self6.jpg";
 
-    if (randomNum = 7)
+    if (randomNum == 7)
         toRandomize.src = "images/self7.jpg";
 
-    if (randomNum = 8)
+    if (randomNum == 8)
         toRandomize.src = "images/self8.jpg";
 
-    if (randomNum = 9)
+    if (randomNum == 9)
         toRandomize.src = "images/self9.jpg";
 
     return randomNum;
