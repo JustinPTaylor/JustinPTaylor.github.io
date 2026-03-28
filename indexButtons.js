@@ -3,17 +3,33 @@ randomImageBtn.addEventListener("click", function() {
     let toRandomize = document.getElementById("main-image");
     let oldRandomIndex = -1;
     let waitTime = 1000;
-    toRandomize.classList.add("hidden");
 
+    /* got the timeout from https://www.w3schools.com/JS/js_timing.asp */
+    /*tried a lot, but was unable to get this to recurse the easy way, so manual it was*/
     setTimeout(function() {
         oldRandomIndex = randomizeImage(toRandomize, oldRandomIndex);
         toRandomize.classList.remove("hidden");
-        waitTime -= 100;
+        setTimeout(function() {
+            oldRandomIndex = randomizeImage(toRandomize, oldRandomIndex);
+            waitTime -= 100;
+        setTimeout(function() {
+            oldRandomIndex = randomizeImage(toRandomize, oldRandomIndex);
+            waitTime -= 100;
+        setTimeout(function() {
+            oldRandomIndex = randomizeImage(toRandomize, oldRandomIndex);
+            waitTime -= 100;
+        setTimeout(function() {
+            oldRandomIndex = randomizeImage(toRandomize, oldRandomIndex);
+            waitTime -= 100;
         setTimeout(function() {
             oldRandomIndex = randomizeImage(toRandomize, oldRandomIndex);
             waitTime -= 100;
         }, waitTime)
-    }, waitTime)
+        }, waitTime)
+        }, waitTime)
+        }, waitTime)
+        }, waitTime)
+    }, 0)
 });
 
 function randomizeImage(toRandomize, oldRandomIndex) {
