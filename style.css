@@ -15,6 +15,7 @@ img {
 }
 .listcenterer {
     display: block;
+    width: fit-content;
     margin: auto;
 }
 body.bluebackground {
